@@ -1,12 +1,13 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class DayEight {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         try {
             // Reading the input file into a list of strings
             List<String> input = Files.readAllLines(Paths.get("day8.txt"));

@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -9,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class DayFour {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         try {
             // Initialize a file and scanner to read from "day4.txt"
             File inputFile = new File("day4.txt");

@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public class DayOne {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String fileName = "day1.txt"; 
         try {
             int totalSumPartOne = calculateSumPartOne(fileName);
